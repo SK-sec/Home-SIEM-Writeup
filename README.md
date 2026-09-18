@@ -52,7 +52,7 @@ reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execut
 ### 📊 Результат в Wazuh Dashboard
 Когда атака активируется, Sysmon перехватывает событие создания подозрительного процесса, агент моментально пересылает его, и на сервере Wazuh загорается критический алерт 12-го уровня:
 
-![Wazuh Alert 100004](alert_screen.png)
+![Wazuh Alert 100004](png/alert_screen.png)
 
 
 ---
